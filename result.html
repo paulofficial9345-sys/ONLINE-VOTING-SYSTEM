@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Result Page</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>RESULT COUNT</h1>
+
+        <!-- Candidate A -->
+        <h3>
+            Candidate A :
+            <span id="countA"></span>
+            Votes
+        </h3>
+
+        <!-- Candidate B -->
+        <h3>
+            Candidate B :
+            <span id="countB"></span>
+            Votes
+        </h3>
+
+        <!-- Candidate C -->
+        <h3>
+            Candidate C :
+            <span id="countC"></span>
+            Votes
+        </h3>
+
+        <!-- RESET BUTTON -->
+        <button onclick="adminReset()">
+
+            Reset Voting Count
+
+        </button>
+
+    </div>
+    <!-- BACK BUTTON -->
+    <div class="back-btn">
+
+        <button onclick="goToVote()">
+            Back
+        </button>
+
+    </div>
+
+    <!-- JS FILE -->
+    <script src="index.js"></script>
+
+    <script>
+
+        // SHOW RESULT
+        showResult();
+
+    </script>
+
+</body>
+
+</html>

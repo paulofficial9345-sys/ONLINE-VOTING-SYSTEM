@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Page</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div>
+
+        <center>
+            <h1>Please Select Your Candidate</h1>
+        </center>
+
+        <div class="voting-machine">
+
+            <h2 align="center">ONLINE VOTING</h2>
+
+            <!-- Candidate 1 -->
+            <div class="vote-row">
+
+                <div class="party-name">
+                    Candidate A
+                </div>
+
+                <div class="vote-section">
+
+                    <div class="light"></div>
+
+                    <button class="vote-btn"
+                    onclick="vote('Candidate A')">
+                        Vote
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Candidate 2 -->
+            <div class="vote-row">
+
+                <div class="party-name">
+                    Candidate B
+                </div>
+
+                <div class="vote-section">
+
+                    <div class="light"></div>
+
+                    <button class="vote-btn"
+                    onclick="vote('Candidate B')">
+                        Vote
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Candidate 3 -->
+            <div class="vote-row">
+
+                <div class="party-name">
+                    Candidate C
+                </div>
+
+                <div class="vote-section">
+
+                    <div class="light"></div>
+
+                    <button class="vote-btn"
+                    onclick="vote('Candidate C')">
+                        Vote
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JS FILE -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
